@@ -6,7 +6,7 @@ import Button from '@mui/material/Button'
 import { UserContext } from '../../Contextprovider'
 import { useContext } from 'react'
 import axios from 'axios'
-import { Link,useNavigate } from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 
 export default function Category() {

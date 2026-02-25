@@ -8,7 +8,7 @@ useEffect(()=>{
   if (localStorage.getItem('adminToken')==null){
 nav('/admin/alogin')
   }
-},[])
+})
   return (
     <div>
       THIS is dashhhboard

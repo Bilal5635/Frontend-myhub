@@ -75,7 +75,7 @@ alert("ERROR ADDING PRODUCTS")
     .catch(error=>{
         console.error("Error fetching users",error)
     });
- },[]);
+ },[host]);
 
  console.log(product,"product")
 

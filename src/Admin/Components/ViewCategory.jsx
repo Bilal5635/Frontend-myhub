@@ -56,7 +56,7 @@ const navigate = useNavigate();
     .catch(error=>{
         console.error("Error fetching users",error)
     });
- },[]);
+ },[deletestatus]);
 
 
  const handleDelete=(id) => {

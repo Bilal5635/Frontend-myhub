@@ -57,7 +57,7 @@ export default function ViewProducts() {
  const {host} =  useContext(UserContext)
  const [products,setProducts]=useState([]);
 const[deletestatus,setDeleteStatus]=useState(null)
-const navigate = useNavigate();
+// const navigate = useNavigate();
 //viewprod  is the path
 
  useEffect(()=>{
@@ -69,7 +69,7 @@ const navigate = useNavigate();
     .catch(error=>{
         console.error("Error fetching users",error)
     });
- },[]);
+ },[deletestatus]);
 
 
  const handleDelete=(id) => {

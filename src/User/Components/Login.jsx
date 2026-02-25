@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
-import Header from './Header'
+// import Header from './Header'
 import Button from '@mui/material/Button'
 import TextField from '@mui/material/TextField'
 import { Link } from 'react-router-dom'
@@ -9,7 +9,7 @@ import { UserContext } from '../../Contextprovider'
 import { useContext } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 
 

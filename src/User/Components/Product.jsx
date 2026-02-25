@@ -4,11 +4,11 @@ import CardActionArea from '@mui/material/CardActionArea';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Header from './Header';
+// import Header from './Header';
 import { useNavigate, useNavigation } from 'react-router-dom';
-import logo192 from '../../Assets/logo192.png'
-import headphone from '../../Assets/headphone.png'
-import hoodie from '../../Assets/hoodie.png'
+// import logo192 from '../../Assets/logo192.png'
+// import headphone from '../../Assets/headphone.png'
+// import hoodie from '../../Assets/hoodie.png'
 import { UserContext } from '../../Contextprovider';
 import { useContext } from 'react';
 import axios from 'axios';
@@ -27,7 +27,7 @@ useEffect(()=>{
   if (localStorage.getItem('userToken')==null){
 nav('/login')
   }
-},[])
+},[nav])
 
 
  useEffect(()=>{
@@ -39,7 +39,7 @@ nav('/login')
     .catch(error=>{
         console.error("Error fetching image",error)
     });
- },[]);
+ },[host]);
 
 
 

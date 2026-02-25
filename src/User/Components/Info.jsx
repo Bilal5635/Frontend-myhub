@@ -1,10 +1,10 @@
 import React from 'react'
 import REIMAGINE from '../../Assets/REIMAGINE.png'
 import Box from '@mui/material/Box'
-import link from '@mui/material/Link'  //icon
+// import link from '@mui/material/Link'  //icon
 import { Link } from 'react-router-dom'  //to link the capital L
 import Typography from '@mui/material/Typography'
-import Header from './Header'
+// import Header from './Header'
 export default function Info() {
   return (
     <div>

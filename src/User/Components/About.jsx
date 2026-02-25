@@ -1,7 +1,7 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
 import { Link } from 'react-router-dom'
-import Header from './Header'
+
 
 
 export default function About() {
