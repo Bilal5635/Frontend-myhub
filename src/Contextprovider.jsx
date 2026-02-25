@@ -4,7 +4,8 @@ import { createContext } from 'react'
 export const UserContext=createContext();// user context is a variable , can be used any name
 export default function Contextprovider({children}) {
 
-    const host= "http://localhost:8080" // port number as per backend
+    // const host= "http://localhost:8080" // port number as per backend
+    const host ="https://server-myhub.onrender.com"
 
   return (
     <div>

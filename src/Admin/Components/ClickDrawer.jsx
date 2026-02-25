@@ -37,6 +37,7 @@ export default function ClickDrawer() {
       <AppBar
         position="fixed"
         sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px`,
+        
         background:"linear-gradient(140deg, rgb(103, 141, 217), #376bc5ff)" }}
       >
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
