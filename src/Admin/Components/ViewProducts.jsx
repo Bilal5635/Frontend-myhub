@@ -26,7 +26,7 @@ import axios from 'axios';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import IconButton from '@mui/material/IconButton';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -69,7 +69,7 @@ const[deletestatus,setDeleteStatus]=useState(null)
     .catch(error=>{
         console.error("Error fetching users",error)
     });
- },[deletestatus]);
+ },[host,deletestatus]);
 
 
  const handleDelete=(id) => {
